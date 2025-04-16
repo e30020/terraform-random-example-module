@@ -12,3 +12,8 @@ output "random_pet_id_3" {
   value       = random_pet.example_3.id
   description = "ID (name) of the random pet."
 }
+
+output "random_pet_id_4" {
+  value       = random_pet.example_4.id
+  description = "ID (name) of the random pet."
+}
